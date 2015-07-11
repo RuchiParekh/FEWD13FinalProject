@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF8"> 
+    <title>Bootstrap 101 Template-FinalProjectFEWD13</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Carousel css -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+    <link href="css/main.css" rel="stylesheet" >
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+</head>
+
+<body>
+  <header>
+    <h1>NeuroMorpho.Org</h1>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  </header>
+
+<div class="Panels_VerticalNav">
+<!-- Navigation dots -->
+  <nav id="cd-vertical-nav">
+    <ul>
+      <li>
+        <a href="#section1" data-number="1">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2006</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section2" data-number="2">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2007</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section3" data-number="3">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2008</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section4" data-number="4">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2009</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section5" data-number="5">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2010</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section6" data-number="6">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2011</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section7" data-number="7">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2012</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section8" data-number="8">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2013</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section9" data-number="9">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2014</span>
+        </a>
+      </li>
+      <li>
+        <a href="#section10" data-number="10">
+          <span class="cd-dot"></span>
+          <span class="cd-label">2015</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
+
+<section id="section1" class="cd-section">
+  <div class="continuous-true waypoint">This was the year NMO was launched with very little data!</div>
+  <p>Chart for 2006 goes here</p>
+
+    <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['ID', 'Life Expectancy', 'Fertility Rate', 'Region',     'Population'],
+        ['CAN',    80.66,              1.67,      'North America',  33739900],
+        ['DEU',    79.84,              1.36,      'Europe',         81902307],
+        ['DNK',    78.6,               1.84,      'Europe',         5523095],
+        ['EGY',    72.73,              2.78,      'Middle East',    79716203],
+        ['GBR',    80.05,              2,         'Europe',         61801570],
+        ['IRN',    72.49,              1.7,       'Middle East',    73137148],
+        ['IRQ',    68.09,              4.77,      'Middle East',    31090763],
+        ['ISR',    81.55,              2.96,      'Middle East',    7485600],
+        ['RUS',    68.6,               1.54,      'Europe',         141850000],
+        ['USA',    78.09,              2.05,      'North America',  307007000]
+      ]);
+
+      var options = {
+        title: 'Correlation between life expectancy, fertility rate and population of some world countries (2010)',
+        hAxis: {title: 'Life Expectancy'},
+        vAxis: {title: 'Fertility Rate'},
+        bubble: {textStyle: {fontSize: 11}}
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+
+    <div id="series_chart_div" style="width: 900px; height: 500px;"></div>
+
+    <!-- <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a> -->
+</section>
+
+<section id="section2" class="cd-section">
+  <div class="continuous-true waypoint">This was the second year with even more data!!</div>
+  
+    <p>Chart for 2007 goes here</p>
+
+
+</section>
+
+<section id="section3" class="cd-section">
+  <div class="continuous-true waypoint">Continuous hit 3</div>
+    <p>Chart for 2008 goes here</p>
+</section>
+
+<section id="section4" class="cd-section">
+  <div class="continuous-true waypoint">Continuous hit 4</div>
+    <p>Chart for 2009 goes here</p>
+</section>
+
+<section id="section5" class="cd-section">
+  <div class="continuous-true waypoint">Continuous hit 5</div>
+    <p>Chart for 2010 goes here</p>
+</section>
+
+<section id="section6" class="cd-section">
+  <div class="continuous-true waypoint">Continuous hit 6</div> 
+    <p>Chart for 2011 goes here</p>
+</section>
+
+<section id="section7" class="cd-section">
+  <div class="continuous-true waypoint">Continuous hit 7</div>
+    <p>Chart for 2012 goes here</p>
+</section>
+
+<section id="section8" class="cd-section">
+  <div class="continuous-true waypoint">Continuous hit 8</div>
+    <p>Chart for 2013 goes here</p>
+</section>
+
+<section id="section9" class="cd-section">
+  <div class="continuous-true waypoint">Continuous hit 9</div>
+    <p>Chart for 2014 goes here</p>
+</section>
+
+<section id="section10" class="cd-section">
+  <div class="continuous-true waypoint">Continuous hit 10</div>
+    <p>Chart for 2015 goes here</p>
+</section>
+
+
+<div class="bottom_content">
+
+<!-- Slider -->
+
+      <section class="slider">
+        <div id="slider" class="flexslider">
+          <ul class="slides">
+            <li><img src="images/kitchen_adventurer_cheesecake_brownie.jpg" /></li>
+            <li><img src="images/kitchen_adventurer_lemon.jpg" /></li>
+          </ul>
+        </div>
+      </section>
+
+</div> 
+
+    <ul class="notifications"></ul>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/crossfilter.js"></script>
+    <script src="js/main.js"></script>
+
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(window).load(function(){
+      $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        itemWidth: 210,
+        itemMargin: 5,
+        asNavFor: '#slider'
+      });
+
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+  </body>
+</html>
